@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo-MFS-Login</title>
+    <!-- tailwind connect link -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisy UI conncect link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+
+    <!--google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .font-outfit{
+            font-family: "Outfit", serif;
+        }
+    </style>
+</head>
+<body class="font-outfit max-w-screen-md mx-auto min-h-screen flex flex-col justify-center items-center bg-[#F4F5F7] relative">
+    <!-- header part -->
+    <header class="mt-6 ">
+        <div class="flex justify-center items-center relative  mx-auto w-1/2">
+            <img class="" src="./assets/bg.png" alt="">
+            <img class="absolute top-5 w-12" src="./assets/Group.png" alt="">
+        </div>
+    </header>
+
+    <!-- main part -->
+    <main class="relative -top-20 bg-white">
+        <section class="">
+            
+                
+                  
+                  <form class="shadow-2xl">
+                    <div class="card-body">
+                      <fieldset class="fieldset">
+                        <label class="fieldset-label">Mobile number:</label>
+                        <input id="user-number" type="number" class="input text-center" placeholder="Enter your number" required />
+                        
+                        <label class="fieldset-label">4 Digit pin:</label>
+                        <input id="user-pass"  type="text" class="input bg-[#080808] text-center" placeholder="Enter 4 Digit pin..."  required/>
+
+                        <div><a class="link link-hover">Forgot password?</a></div>
+                        <button id="btn-login" class="btn btn-neutral mt-4">Login</button>
+                      </fieldset>
+                    </div>
+                  </form>
+                
+          
+        </section>
+    </main>
+
+    
+    <!-- footer part -->
+    <footer></footer>
+    <script src="js/login.js"></script>
+</body>
+</html>

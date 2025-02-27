@@ -1,0 +1,75 @@
+document.getElementById("latest-payment").style.display="block"
+document.getElementById("input-add-money").style.display="none"
+document.getElementById("input-cashout").style.display="none"
+document.getElementById("input-pay-bill").style.display="none"
+document.getElementById("input-get-bonus").style.display="none"
+document.getElementById("input-send-money").style.display="none"
+document.getElementById("transacton-history").style.display="none"
+
+document.getElementById("main-add-money")
+.addEventListener("click",function(event){
+    event.preventDefault()
+    document.getElementById("input-add-money").style.display="block"
+    document.getElementById("latest-payment").style.display="none"
+    document.getElementById("input-cashout").style.display="none"
+    document.getElementById("input-pay-bill").style.display="none"
+    document.getElementById("input-get-bonus").style.display="none"
+    document.getElementById("input-send-money").style.display="none"
+    document.getElementById("transacton-history").style.display="none"
+})
+document.getElementById("main-cashout")
+.addEventListener("click",function(event){
+    event.preventDefault()
+    document.getElementById("input-add-money").style.display="none"
+    document.getElementById("latest-payment").style.display="none"
+    document.getElementById("input-cashout").style.display="block"
+    document.getElementById("input-pay-bill").style.display="none"
+    document.getElementById("input-get-bonus").style.display="none"
+    document.getElementById("input-send-money").style.display="none"
+    document.getElementById("transacton-history").style.display="none"
+})
+document.getElementById("main-send-money")
+.addEventListener("click",function(event){
+    event.preventDefault()
+    document.getElementById("input-add-money").style.display="none"
+    document.getElementById("latest-payment").style.display="none"
+    document.getElementById("input-cashout").style.display="none"
+    document.getElementById("input-pay-bill").style.display="none"
+    document.getElementById("input-get-bonus").style.display="none"
+    document.getElementById("input-send-money").style.display="block"
+    document.getElementById("transacton-history").style.display="none"
+})
+document.getElementById("main-get-bonus")
+.addEventListener("click",function(event){
+    event.preventDefault()
+    document.getElementById("input-add-money").style.display="none"
+    document.getElementById("latest-payment").style.display="none"
+    document.getElementById("input-cashout").style.display="none"
+    document.getElementById("input-pay-bill").style.display="none"
+    document.getElementById("input-get-bonus").style.display="block"
+    document.getElementById("input-send-money").style.display="none"
+    document.getElementById("transacton-history").style.display="none"
+})
+document.getElementById("main-pay-bill")
+.addEventListener("click",function(event){
+    event.preventDefault()
+    document.getElementById("input-add-money").style.display="none"
+    document.getElementById("latest-payment").style.display="none"
+    document.getElementById("input-cashout").style.display="none"
+    document.getElementById("input-pay-bill").style.display="block"
+    document.getElementById("input-get-bonus").style.display="none"
+    document.getElementById("input-send-money").style.display="none"
+    document.getElementById("transacton-history").style.display="none"
+})
+document.getElementById("main-transaction-history")
+.addEventListener("click",function(event){
+    event.preventDefault()
+    document.getElementById("input-add-money").style.display="none"
+    document.getElementById("latest-payment").style.display="none"
+    document.getElementById("input-cashout").style.display="none"
+    document.getElementById("input-pay-bill").style.display="none"
+    document.getElementById("input-get-bonus").style.display="none"
+    document.getElementById("input-send-money").style.display="none"
+    document.getElementById("transacton-history").style.display="block"
+})
+//************************************************************************** */
